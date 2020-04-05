@@ -4,5 +4,5 @@
 - [Paper](/Paper/)
     - [1](/Note/1)
 - [Course](/Course/)
-
+- [Chatting Room](/Chat)
 
