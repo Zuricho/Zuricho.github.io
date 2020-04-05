@@ -1,363 +1,77 @@
 <!DOCTYPE html>
-<html lang="zh-cmn-Hans">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		
-		<title>Bozitao Zhong Homepage</title>
-		<meta name="robots" content="robots">
-		<meta name="author" content="Bozitao Zhong">
-		<meta name="description" content="This is my personal webpage">
-
-		<base href=".">
-		<link rel="stylesheet" href="./files/main.min.css">
-		<link rel="mask-icon" href="https://s.anw.red/anyway.fm/mask-icon.svg" color="#f60c3e">
-
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-
-		<link rel="alternate" type="application/rss+xml" title="Anyway.FM" href="https://anyway.fm/rss.xml">
-		<link rel="icon" href="https://s.anw.red/anyway.fm/favicon/theme-default-16.png" sizes="16x16" id="favicon16">
-		<link rel="icon" href="https://s.anw.red/anyway.fm/favicon/theme-default-32.png" sizes="32x32" id="favicon32">
-		<link rel="icon" href="https://s.anw.red/anyway.fm/favicon/theme-default-96.png" sizes="96x96" id="favicon96">
-
-		<script src="./files/hm.js.下载"></script><script src="./files/vue.min.js.下载"></script>
-
-	</head>
-
-	<body id="index" class="blog theme-default non-logged-in" ontouchstart="">
-		<div class="mask mt"></div><div class="mask mb"></div><div class="mask mv ml"></div><div class="mask mv mr"></div><div class="mask mv ml2"></div><div class="mask mv mr2"></div><div class="mask mb2"></div>
-		<div class="main">
-			<header class="header">
-				<div class="inner">
-					<div class="logo">
-						<a href="https://zuricho.github.io/#" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;nav&#39;, &#39;back-to-home&#39;, &#39;from-sidebar-logo&#39;])" title="返回首页~">
-							<img src="./files/logo.jpg">
-						</a>
-					</div>
-				<div class="tagline">
-					Welcome to <span style="font-size:30px">Nirvana</span><br />Here is Bozitao Zhong's homepage.
-				</div>
-				<div class="nav">
-					<ul>
-						<li><a class="mobile-hide nav-about" href="http://zuricho.github.io" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;nav&#39;, &#39;About&#39;, &#39;from-sidebar-nav&#39;])">
-							<svg class="nav-icon" viewBox="0 0 30 30">
-				    		<path d="M15 10.2L15 14.8 25 8.2 15 1.5C15 3.5 15 5 15 5.9 9.5 5.9 5 10.4 5 15.9 5 21.5 9.5 26 15 26 20.5 26 25 21.5 25 15.9 25 14.5 24.9 14.3 24.4 13" class="stroke"></path>
-							 <path d="M11.1 13.8C10.2 16.3 11.1 18.5 13.2 19.5 15.3 20.6 18.1 19.6 19 17.5" class="stroke highlight"></path>
-							</svg>
-							<span>Homepage</span>
-						</a></li>
-
-						<li><a class="nav-member" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIxMTY4MDQ2OQ==&scene=124#wechat_redirect">
-
-							<svg class="nav-icon" viewBox="0 0 30 30">
-						    <g class="stroke">
-									<polygon points="19 18 25 14 21 25 9 25 5 14 11 18 15 10"></polygon>
-						    </g>
-								<g class="highlight fill gold">
-									<circle cx="15" cy="5" r="2.1"></circle>
-									<circle cx="27.5" cy="9.5" r="2.1"></circle>
-									<circle cx="2.5" cy="9.5" r="2.1"></circle>
-								</g>
-							</svg>
-							<span>Wechat account</span>
-						</a></li>
-
-						<li><a class="nav-archive" href="https://github.com/Zuricho" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;nav&#39;, &#39;Archive&#39;, &#39;from-sidebar-nav&#39;])">
-							<svg class="nav-icon" viewBox="0 0 30 30">
-								<g class="stroke">
-									<path d="M7 15h16"></path>
-									<rect x="6.5" y="5" width="17" height="20"></rect>
-									<path d="M4.5 25h21"></path>
-								</g>
-								<path d="M14 10h2M14 20h2" class="highlight stroke"></path>
-
-							</svg>
-							<span>Github</span>
-						</a></li>
-
-
-						<li class="nav-label"><span>iGEM Competitions</span></li>
-
-						<li><a href="https://igem.bio-x.cn/intro-en.html" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;Anyway.TV&#39;, &#39;from-sidebar-nav&#39;])">
-							<svg class="nav-icon" viewBox="0 0 30 30">
-								<g class="stroke">
-									<rect x="6" y="15" width="14" height="10" rx="3"></rect>
-									<path d="M23.75 23l3.41 1.7a.75.75 0 0 0 1-.66v-8a.75.75 0 0 0-1-.67l-3.4 1.7"></path>
-								</g>
-								<circle cx="9" cy="7" r="4" class="highlight stroke"></circle>
-								<circle cx="20" cy="8" r="3" class="highlight stroke"></circle>
-							</svg>
-							<span><span class="small-hide">iGEM Competiton</span>
-						</a></li>
-					
-						<li><a href="http://2017.igem.org/Team:SJTU-BioX-Shanghai/Team" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;Anyway.Post&#39;, &#39;from-sidebar-nav&#39;])">
-							<svg class="nav-icon" viewBox="0 0 30 30">
-								<path d="M5 10L15 16L25 10" class="highlight stroke"></path>
-								<path d="M4.5 6v16l2 2h17l2 -2v-16z" class="stroke"></path>
-							</svg>
-							<span><span class="small-hide">iGEM 2017</span>
-						</a></li>
-					
-						<li><a href="http://2018.igem.org/Team:SJTU-BioX-Shanghai/Team" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;Anyway.Store&#39;, &#39;from-sidebar-nav&#39;])">
-							<svg class="nav-icon" viewBox="0 0 30 30">
-								<rect x="5.5" y="7" width="19" height="19" class="stroke"></rect>
-            			<path d="M19,10 v-3 C19,6 18,2.5 15,2.5 C12,2.5 11,6 11,6 v4" class="highlight stroke"></path>
-							</svg>
-							<span><span class="small-hide">iGEM 2018</span>
-						</a></li>
-					
-						<li><a href="http://2019.igem.org/Team:SJTU-BioX-Shanghai/Team" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;Anyway.Store&#39;, &#39;from-sidebar-nav&#39;])">
-							<svg class="nav-icon" viewBox="0 0 30 30">
-								<rect x="5.5" y="7" width="19" height="19" class="stroke"></rect>
-            			<path d="M19,10 v-3 C19,6 18,2.5 15,2.5 C12,2.5 11,6 11,6 v4" class="highlight stroke"></path>
-							</svg>
-							<span><span class="small-hide">iGEM 2019</span>
-						</a></li>
-
-						<li class="nav-label"><span>Contacts</span>
-						</li>
-
-						<li class="side-follow">
-							<a href="zbztzhz@sjtu.edu.cn" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;E-mail&#39;, &#39;from-sidebar-nav&#39;])"><i class="icon-mail-alt" title="edu mailbox"></i></a>
-							<a href="billabc123c@gmail.com" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;E-mail&#39;, &#39;from-sidebar-nav&#39;])"><i class="icon-mail-alt" title="gmail"></i></a>
-							<a href="https://twitter.com/Zuricho/" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;Twitter&#39;, &#39;from-sidebar-nav&#39;])" title="Twitter"><i class="icon-twitter"></i></a>
-							<a href="https://www.weibo.com/1931483281/" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39; Weibo&#39;, &#39;from-sidebar-nav&#39;])" title="Weibo"><i class="icon-weibo"></i></a>
-							<a href="https://github.com/Zuricho/" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;GitHub&#39;, &#39;from-sidebar-nav&#39;])" title="GitHub"><i class="icon-github"></i></a>
-							<a href="https://www.instagram.com/Zuricho_Tao/" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;Instagram&#39;, &#39;from-sidebar-nav&#39;])" title="Instagram"><i class="icon-instagram"></i></a>
-						</li>
-
-					</ul>
-
-				</div>
-
-			<script src="./files/main.js.下载"></script>
-
-			<div class="nav-footer">
-				<div class="inner">
-					© 2019 <a href="https://anyway.fm/">Bozitao Zhong all rights reserved.
-				</div>
-			</div>
-
-		</div>
-			</header>  
-			<!--End of 'Header'-->
-
-
-			<main class="section content">
-				<div class="inner">
-					<article class="item episodes first">
-						<div class="inner">
-							<div class="item-main">
-								<h1><span>1 </span><a href="http://2017.igem.org/Team:SJTU-BioX-Shanghai">iGEM story I: Palette</a></h1>
-
-								<div class="item-desc text">
-									<p>A universal multifactorial visualized detection system</p>
-									<p><br></p>
-									<p>In our project, Palette, we develop a system which can detect multiple target substances and can read the result by naked eyes. We choose chromoproteins to provide rich colors for indication of multiple signals. Furthermore, by mixing two types of chromoproteins, we can create a third color taken as the characterization of the relative abundance of two signal molecules. 
-										<a class="readmore" href="http://2017.igem.org/Team:SJTU-BioX-Shanghai" title="Read more about Palette"><span>MORE</span></a></p>
-								</div>
-							</div>
-							
-
-						</div>
-						<div class="admin-bar">
-						</div>
-					</article>
-
-					<article class="item episodes">
-						<div class="inner">
-							<div class="item-main">
-								<h1><span>2 </span><a href="http://2018.igem.org/Team:SJTU-BioX-Shanghai/Story">iGEM story II: ECHO</a></h1>
-								<div class="item-meta">
-									<span class="meta-tags" style="display: block">
-										<span>
-											<a href="https://anyway.fm/tags/%E7%BC%96%E7%A8%8B" title="more about iGEM"><em>#</em>iGEM</a>  
-											<a href="https://anyway.fm/tags/%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95" title="More about Synbio"><em>#</em>Synbio</a>
-										</span>
-									</span>
-								</div>
-								<div class="item-desc text"><i>E.coli</i> for Colon Health Observation	<br>
-									You are going to see how ECHO grows from a simple idea to a complete project and eventually turns into reality. You can also find out how our team grows from 18 individuals to one collective.
-									<a class="readmore" href="http://2018.igem.org/Team:SJTU-BioX-Shanghai/Story" title="Read more about ECHO"><span>MORE</span></a>
-								</div>
-							</div>
-							
-						</div>
-						<div class="admin-bar">
-						</div>
-					</article>
-					
-					<article class="item episodes">
-						<div class="inner">
-							<div class="item-main">
-								<h1><span>3 </span><a href="https://anyway.fm/camera-phone/">「Back UP」</a></h1>
-								<div class="item-meta">
-									<span class="meta-tags" style="display: block">
-								</div>
-								<div class="item-desc text">
-									Here is the back up for a passage	<a class="readmore" href="https://anyway.fm/bugfix-1/" title="Wrong link!"><span>MORE</span></a>
-								</div>
-							</div>
-
-						
-						</div>
-						<div class="admin-bar">
-						
-						</div>
-					</article>
-					
-					<article class="item episodes">
-						<div class="inner">
-							<div class="item-main">
-								<h1><span>4 </span><a href="https://anyway.fm/bugfix-1/">「Back UP」</a></h1>
-								<div class="item-meta">
-									<span class="meta-tags" style="display: block">
-										<span>
-											<a href="https://anyway.fm/tags/%E7%BC%96%E7%A8%8B" title="more about iGEM"><em>#</em>iGEM</a>  
-											<a href="https://anyway.fm/tags/%E8%81%8C%E4%B8%9A%E5%8F%91%E5%B1%95" title="More about Synbio"><em>#</em>Synbio</a>
-										</span>
-									</span>
-								</div>
-								<div class="item-desc text">
-									Here is the back up for a passage	<a class="readmore" href="https://anyway.fm/bugfix-1/" title="Wrong link!"><span>MORE</span></a>
-								</div>
-							</div>
-						
-						</div>
-						<div class="admin-bar">
-
-						</div>
-					</article>
-					
-					<article class="item episodes">
-						<div class="inner">
-							<div class="item-main">
-								<h1><span>5 </span><a href="https://anyway.fm/dribbble-2019/">「Back UP」</a></h1>
-								<div class="item-meta">
-									<span class="meta-tags" style="display: block"><span><a href="https://anyway.fm/tags/dribbble" title="More about tagX"><em>#</em>tagX</a> </span></span>
-								</div>
-								<div class="item-desc text">
-									Here is the back up for a passage	<a class="readmore" href="https://anyway.fm/dribbble-2019/" title="Wrong link!"><span>MORE</span></a>
-								</div>
-							</div>
-						
-						</div>
-						<div class="admin-bar">
-
-						</div>
-					</article>
-					
-					<article class="item feed-banner feed-banner-1">
-					  	<div class="inner">
-					    	<div class="feed-quote">
-					      		<div class="quote-content">Wir müssen wissen. Wir werden wissen.</div>
-					      		<div class="quote-meta">— David Hilbert</div>
-					    	</div>
-					  	</div>
-					</article>
-				</div>
-
-			</main>
-
-		</div><!--End of 'Main'-->
-
-		<footer class="footer">
-			<div class="inner-section inner-footer">
-				© 2015 ~ 2019 <a href="https://anyway.fm/">Anyway.FM</a> 保留所有权利<em> · </em>自豪地采用古典到不行的 <a href="http://bo-blog.com/" title="Bo-Blog 2, a free-of-charge weblog engine based on PHP script and MySQL storage.">Bo-Blog</a> 搭建<span class="dummy">官网</span>
-			</div>
-		</footer>
-
-		<!--Mini Header-->
-		<div class="mobile-only mini-header">
-			<a href="https://anyway.fm/#" class="mini-logo"><img src="files/logo-s.svg" alt="Bozitao Zhong Homepage"></a>
-			<div class="toggle">
-				
-				<a onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;open overlay&#39;, &#39;All&#39;, &#39;from-mini-header&#39;]);javascript:loadScript(&#39;https://s.anw.red/anyway.fm/search.js&#39;,&#39;&#39;);openOverlay(&#39;all&#39;);" class="overlay-toggle menu-icon">
-					<div class="menu-icon-bar menu-icon-bar-1"></div>
-					<div class="menu-icon-bar menu-icon-bar-2"></div>
-					<div class="menu-icon-bar menu-icon-bar-3"></div>
-				</a>
-				
-			</div>
-		</div>
-
-		
-		<!--Overlay Menu-->
-		<div class="overlay">
-			<div class="body-text inner">
-	
-				<div class="overlay-section overlay-lab">
-					<h4>Anyway.Lab</h4>
-					<ul>
-						<li class="mobile-only"><a href="https://anyway.fm/about.php" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;nav&#39;, &#39;About&#39;, &#39;from-overlay-menu&#39;])">关于我台<br><em>Anyway.About</em></a></li>
-						<li class="mobile-only"><a href="https://anyway.fm/member/" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;nav&#39;, &#39;Member&#39;, &#39;from-overlay-menu&#39;])">会员计划<br><em>Anyway.Member</em></a></li>
-						<li class="mobile-only"><a href="https://anyway.fm/archive.php" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;nav&#39;, &#39;Archive&#39;, &#39;from-overlay-menu&#39;])"> 往期存档<br><em>Anyway.Archive</em></a></li>
-						<li><a href="https://anyway.tv/" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;Anyway.TV&#39;, &#39;from-overlay-menu&#39;])">安妮薇映画<br><em>Anyway.TV</em></a></li>
-						<li><a href="https://anyway.fm/post/" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;Anyway.Post&#39;, &#39;from-overlay-menu&#39;])">安妮薇邮报<br><em>Anyway.Post</em></a></li>
-						<li class="mobile-hide"><a href="https://anyway.fm/tab/" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;Anyway.Tab&#39;, &#39;from-overlay-menu&#39;])">浏览器插件<br><em>Anyway.Tab</em></a></li>
-						<li><a href="https://weidian.com/?userid=862901077" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;Anyway.Store&#39;, &#39;from-overlay-menu&#39;])">安妮薇商城<br><em>Anyway.Store</em></a></li>
-						<li><a href="https://abc.anyway.fm/" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;Anyway.ABC&#39;, &#39;from-overlay-menu&#39;])">术语词典<br><em>Anyway.ABC</em></a></li>
-						<li><a href="http://whatever.fm/" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;Whatever.FM&#39;, &#39;from-overlay-menu&#39;])">副厂牌播客<br><em>Whatever.FM</em></a></li>
-					</ul>
-				</div>
-	
-				<div class="overlay-section overlay-subscribe">
-					<h4>订阅本台</h4>
-					<ul>
-						<li><a href="http://music.163.com/#/djradio?id=4969001" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;Netease&#39;, &#39;from-overlay-menu&#39;])">网易云音乐</a></li>
-						<li><a href="https://itunes.apple.com/cn/podcast/anyway.fm-she-ji-za-tan/id1053786200" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;Apple Podcasts&#39;, &#39;from-overlay-menu&#39;])">Apple 播客</a></li>
-						<li><a href="http://www.lizhi.fm/1824901/" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;Lizhi FM&#39;, &#39;from-overlay-menu&#39;])">荔枝 FM</a></li>
-						<li class="mobile-hide"><a href="https://open.spotify.com/show/4nd3MQMQzb6qwfAn1ZX81m" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;Spotify&#39;, &#39;from-overlay-menu&#39;])">Spotify</a></li>
-						<li><a href="https://anyway.fm/rss.xml" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;RSS&#39;, &#39;from-overlay-menu&#39;])">RSS 订阅</a></li>
-					</ul>
-					<div class="subscribe-desc">同时，我们也推荐使用 <a href="https://castro.fm/podcast/e5869de3-d492-4314-b37d-5936e61695f7" target="_blank">Castro</a>、<a href="https://overcast.fm/itunes1053786200/anyway-fm" target="_blank">Overcast</a> 和 <a href="https://pca.st/QUtT" target="_blank">Pocket Casts</a> 等泛用型播客客户端订阅收听。</div>
-				</div>
-	
-				<div class="overlay-section overlay-follow">
-					<h4>联系 &amp; 关注</h4>
-					<ul>
-						<li><a href="mailto:hello@anyway.fm" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;E-mail&#39;, &#39;from-overlay-menu&#39;])"><i class="icon-mail-alt"></i></a><br><span>E-mail</span></li>
-						<li><a href="https://twitter.com/anyway__fm/" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;E-mail&#39;, &#39;from-overlay-menu&#39;])"><i class="icon-twitter"></i></a><br><span>Twitter</span></li>
-						<li><a href="https://dribbble.com/Anyway-Design/" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;Dribbble&#39;, &#39;from-overlay-menu&#39;])"><i class="icon-dribbble"></i></a><br><span>Dribbble</span></li>
-						<li><a href="http://weibo.com/anywayfm/" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;E-mail&#39;, &#39;from-overlay-menu&#39;])"><i class="icon-weibo"></i></a><br><span>微博</span></li>
-						<li><a href="https://github.com/Anyway-Design/" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;GitHub&#39;, &#39;from-overlay-menu&#39;])"><i class="icon-github"></i></a><br><span>GitHub</span></li>
-						<li><a href="https://www.instagram.com/anywayig/" target="_blank" rel="noopener" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;outbound&#39;, &#39;Instagram&#39;, &#39;from-overlay-menu&#39;])"><i class="icon-instagram"></i></a><br><span>Instagram</span></li>
-					</ul>
-				</div>
-	
-				<div class="overlay-section overlay-search">
-				
-					<div class="search-box">
-						<svg viewBox="0 0 30 30" class="overlay-search-icon">
-							<g class="stroke">
-								<circle cx="13" cy="13" r="9"></circle>
-								<path d="M22.5,22.5 L26,26"></path>
-								<path d="M9 13.6C9.5 14.9 10.6 16.5 12.2 17" class="highlight stroke"></path>
-							</g>
-						</svg>
-					
-						<input type="text" class="st-default-search-input" value="输入关键词" onfocus="this.value=&#39;&#39;">
-					</div>
-				</div>
-	
-			</div>
-			<a class="overlay-toggle overlay-close" onclick="closeOverlay()">
-	
-				<svg viewBox="0 0 500 500">
-					<rect width="300" height="400" x="50" y="50" class="close-bg"></rect>
-					<polyline class="close-arrow" points="260 320 180 250 260 180"></polyline>
-					<rect class="close-bar" width="150" height="30" x="100" y="235"></rect>
-				</svg>
-	
-			</a>
-		</div>
-	
-		<div class="x-corner x-corner-l">
-			<svg viewBox="0 0 41 49"><path d="M0 49h41v-8c-14.268 0-19.434-1.738-24.6-4.526-5.248-2.788-9.348-6.888-12.136-12.136C1.476 19.172 0 14.006 0-.262V49z"></path></svg>
-		</div>
-	
-		<div class="x-corner x-corner-r">
-			<svg viewBox="0 0 41 49"><path d="M41 49H0v-8c14.268 0 19.434-1.738 24.6-4.526 5.248-2.788 9.348-6.888 12.136-12.136C39.524 19.172 41 14.006 41-.262V49z"></path></svg>
-		</div>
-
-	</body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SynBioCourse_Exp</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="上海交通大学 IEEE 试点班，一个充满了「神仙」课程的专业，本网站旨在记录这些课程的信息以及历届学生对其的评价">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'Zuricho Homepage',
+      repo: 'Zuricho/Zuricho.github.io',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      ga: 'UA-118116525-2',
+      search: {
+        maxAge: 3600000, // Expiration time, one hour
+        paths: 'auto',
+        // Localization
+        placeholder: {
+          '/zh-cn/': '搜索',
+          '/': 'Type to search'
+        },
+        // Localization
+        noData: {
+          '/zh-cn/': '找不到结果',
+          '/': 'No Results'
+        },
+        // Headline depth, 1 - 6
+        depth: 6,
+        hideOtherSidebarContent: true,
+        // To avoid search index collision
+        // between multiple websites under the same domain
+        namespace: 'Zuricho.github.io',
+      },
+      plugins: [
+        // remove url parameters before loading Gitalk
+        // as Gitalk uses location.href as id
+        function(hook, vm) {
+          hook.beforeEach(function(html) {
+            var splited = location.href.split('?')
+            if (splited.length >= 2 && !splited[1].startsWith("code=")) {
+              location.href = location.href.split('?')[0]
+            }
+          });
+        }
+      ],
+    }
+  </script>
+  <!-- Docsify -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <!-- Google Analytics -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+  <!-- Search -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- Gitalk -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script src="/js/md5.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: 'bc58a1be5dfebee437a2',
+      clientSecret: 'ca0713a4797201fa477c3e5893e4daa04f5a9a77',
+      repo: 'Zuricho.github.io',
+      owner: 'Zuricho',
+      admin: ['Zuricho'],
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+  </script>
+</body>
 </html>
