@@ -1,3 +1,6 @@
-- [首页](/)
-- [课程](/course/)
+- [Homepage](/)
+- [Idea](/Idea/)
+- [Note](/Note/)
+- [Paper](/Paper/)
+- [Course](/Course/)
 

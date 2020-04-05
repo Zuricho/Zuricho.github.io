@@ -1,7 +1,8 @@
 - [Homepage](/)
 - [Idea](/Idea/)
+    - [1](/Idea/1)
 - [Note](/Note/)
 - [Paper](/Paper/)
 - [Course](/Course/)
-    - [1](/Course/1)
+
 
