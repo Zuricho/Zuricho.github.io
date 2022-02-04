@@ -1,7 +1,3 @@
----
-title: Nirvana
----
-
 # Nirvana
 
 Welcome to Bozitao Zhong's website.
