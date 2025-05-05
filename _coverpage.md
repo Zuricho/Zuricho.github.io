@@ -1,12 +1,11 @@
 # Bozitao Zhong
 
-> A magical documentation site generator.
+> Computational Biology PhD Candidate in SJTU
 
 
-- 🌊 Protein evolution
-- 🧫 Protein function
-- 💨 Protein dynamics
+🌊 evolution | 🧫 function | 💨 dynamics
 
+[📄Resume](https://zhong.bozitao.com/_media/resume.pdf)
 
 <!-- background image -->
 
@@ -14,5 +13,5 @@
 
 <!-- background color -->
 
-![color](#f0aaea)
+![color](#feedff)
 
