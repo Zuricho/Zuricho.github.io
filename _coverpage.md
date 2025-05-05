@@ -1,10 +1,11 @@
-# Bozitao Zhong
+# Bozitao Zhong <small>钟博子韬</small>
 
-> 🌊 evolution | 🧫 function | 💨 dynamics
+> 🌊 evolution | 🔨 function | 🏃 dynamics
 
-Computational Biology PhD Candidate in SJTU
+Computational Biology PhD Candidate in **Shanghai Jiao Tong University**
 
-[📄Resume](https://zhong.bozitao.com/_media/resume.pdf)
+[📄 Resume](https://zhong.bozitao.com/_media/resume.pdf)
+[🔭 Research](https://zhong.bozitao.com/research)
 
 
 <!-- background color -->
