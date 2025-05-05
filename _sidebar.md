@@ -1,3 +1,4 @@
-* [Home](/)
-* [Subpage1](subpage1.md)
-* [Subpage2](subpage2.md)
+- [README](README.md)
+- [Subpage1](subpage1.md)
+- [Subpage2](subpage2.md)
+- [Subpage3](subpage3.md)
