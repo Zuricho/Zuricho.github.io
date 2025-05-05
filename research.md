@@ -12,6 +12,10 @@
 - Using protein sequence and structure pretraining to assist protein engineering and design
 - De novo design of enzymes with enhanced catalytic performance
 
+### Deep learning models for protein dynamics
+
+- Predict the conformation ensemble of a protein
+
 ### AlphaFold modification and application
 
 - High-throughput protein structure prediction
