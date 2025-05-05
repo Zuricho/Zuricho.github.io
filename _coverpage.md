@@ -1,15 +1,11 @@
 # Bozitao Zhong
 
-> Computational Biology PhD Candidate in SJTU
+> 🌊 evolution | 🧫 function | 💨 dynamics
 
-
-🌊 evolution | 🧫 function | 💨 dynamics
+Computational Biology PhD Candidate in SJTU
 
 [📄Resume](https://zhong.bozitao.com/_media/resume.pdf)
 
-<!-- background image -->
-
-![wallpaper](_media/wallpaper.jpeg)
 
 <!-- background color -->
 

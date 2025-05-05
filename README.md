@@ -1,5 +1,0 @@
-# Headline
-
-> An awesome project.
-
-Test of a new file in docsify project
