@@ -1,6 +1,6 @@
 # Bozitao Zhong
 
-> 🌊 evolution | 🔨 function | 🏃 dynamics
+> 🌊 Evolution | 🔨 Function | 🏃 Dynamics
 
 Computational Biology PhD Candidate in **Shanghai Jiao Tong University**
 

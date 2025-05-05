@@ -24,23 +24,19 @@
 
 ## Full Paper List
 
-1. [Personalized Energy Adaptation through Reweighting Learning (PEARL) Force Field for Intrinsically Disordered Proteins](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.5c00140)
-
-2. [Harnessing A Unified Multi-modal Sequence Modeling to unveil Protein-DNA Interdependency](https://www.biorxiv.org/content/10.1101/2025.02.26.640480v2.abstract)
-
-3. [Entropy-driven zero-shot deep learning model selection for viral proteins](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.7.013229)
-
+1. Ji, X. *et al.* [Personalized Energy Adaptation through Reweighting Learning (PEARL) Force Field for Intrinsically Disordered Proteins.](https://doi.org/10.1021/acs.jcim.5c00140) *J. Chem. Inf. Model.* **65**, 3669–3681 (2025).
+2. Li, M. *et al.* [Harnessing A Unified Multi-modal Sequence Modeling to unveil Protein-DNA Interdependency.](https://www.biorxiv.org/content/10.1101/2025.02.26.640480v2.abstract) Preprint at https://doi.org/10.1101/2025.02.26.640480 (2025).
+3. Yu, Y., Jiang, F., Zhong, B., Hong, L. & Li, M. [Entropy-driven zero-shot deep learning model selection for viral proteins.](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.7.013229) *Phys. Rev. Research* **7**, 013229 (2025).
 4. [Discovery of Expression-Governing Residues in Proteins](https://www.biorxiv.org/content/10.1101/2025.01.06.631498v1.abstract)
+5. Zhou, B. *et al.* [Protein engineering in the deep learning era.](https://onlinelibrary.wiley.com/doi/full/10.1002/mlf2.12157) *mLife* **3**, 477–491 (2024).
+   
+6. Tan, Y., Zheng, L., Zhong, B., Hong, L. & Zhou, B. [Protein Representation Learning with Sequence Information Embedding: Does it Always Lead to a Better Performance?](https://ieeexplore.ieee.org/abstract/document/10822035) in 2024 *IEEE International Conference on Bioinformatics and Biomedicine (BIBM)* 233–239 (2024).
 
-5. [Protein engineering in the deep learning era](https://onlinelibrary.wiley.com/doi/full/10.1002/mlf2.12157)
-
-6. [Protein Representation Learning with Sequence Information Embedding: Does it Always Lead to a Better Performance?](https://ieeexplore.ieee.org/abstract/document/10822035)
-
-7. [Learning temperature-aware representations from millions of annotated protein sequences](https://openreview.net/forum?id=sOU2rNqo90)
+7. Li, M. *et al.* [Learning temperature-aware representations from millions of annotated protein sequences.](https://openreview.net/forum?id=sOU2rNqo90) in *Neurips 2024 Workshop Foundation Models for Science* (2024).
 
 8. [A conditional protein diffusion model generates artificial programmable endonuclease sequences with enhanced activity](https://www.nature.com/articles/s41421-024-00728-2)
 
-9. [Pretrainable geometric graph neural network for antibody affinity maturation](https://www.nature.com/articles/s41467-024-51563-8)
+9.  [Pretrainable geometric graph neural network for antibody affinity maturation](https://www.nature.com/articles/s41467-024-51563-8)
 
 10. [ReactZyme: A Benchmark for Enzyme-Reaction Prediction](https://proceedings.neurips.cc/paper_files/paper/2024/hash/2e68b2367d2e0bc8dd6f0ff86e07c2eb-Abstract-Datasets_and_Benchmarks_Track.html)
 
