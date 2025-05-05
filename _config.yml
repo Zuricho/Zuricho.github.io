@@ -1,5 +1,7 @@
-title: Bozitao Zhong
 remote_theme: broccolini/swiss
-theme_color: red
-plugins:
-  - jekyll-optional-front-matter
+theme_color: yellow
+social_link: twitter
+social_username: zbztzhz
+title: Bozitao Zhong
+description: Zuricho's Homepage
+
