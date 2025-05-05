@@ -1,3 +1,3 @@
 * [Home](/)
-* [Subpage1](subpage1.md "The greatest guide in the world)
+* [Subpage1](subpage1.md)
 * [Subpage2](subpage2.md)
